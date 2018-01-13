@@ -63,3 +63,29 @@
 	padding:20px;
 	font-size: 30px;
 }
+
+.flex-container6{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: dodgerblue;
+}
+.flex-container6>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+.flex-container7{
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: dodgerblue;
+}
+.flex-container7>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
