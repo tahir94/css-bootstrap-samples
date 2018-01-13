@@ -89,3 +89,88 @@
 	padding:20px;
 	font-size: 30px;
 }
+
+.flex-container8{
+	display: flex;
+	flex-flow: row wrap-reverse;
+	background-color: dodgerblue;
+}
+.flex-container8>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+.flex-container9{
+	display: flex;
+	justify-content: center;
+	background-color: dodgerblue;
+	text-align: center
+}
+.flex-container9>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+.flex-container10{
+	display: flex;
+	justify-content: flex-start;
+	background-color: dodgerblue;
+	text-align: center
+}
+.flex-container10>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+.flex-container11{
+	display: flex;
+	justify-content: flex-end;
+	background-color: dodgerblue;
+	text-align: center
+}
+.flex-container11>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+.flex-container12{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: dodgerblue;
+	text-align: center
+}
+.flex-container12>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+.flex-container13{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: dodgerblue;
+	text-align: center
+}
+.flex-container13>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
