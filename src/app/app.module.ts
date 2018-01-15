@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CssFlexComponent } from './css-flex/css-flex.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CssFlexComponent } from './css-flex/css-flex.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    CssFlexComponent
+    CssFlexComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
