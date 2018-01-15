@@ -1,3 +1,16 @@
 .background {
 	background: #363636
 }
+.color{
+	color : white;
+	margin-left: 10px;
+}
+.color:hover{
+	color : #CBCBCB;
+	cursor: pointer;
+}
+.dsply{
+	display: flex;
+    justify-content: space-evenly;
+}
+

@@ -14,8 +14,31 @@
 		</li>
 	  </ul>
 	  <form class="form-inline my-2 my-lg-0">
-		<input class="form-control mr-sm-2" type="text" placeholder="Search">
-		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  <i class="material-icons color">settings</i>
+
+		  <!-- <div  class="color">
+		  <i class="material-icons">person</i>
+		  <i  class="material-icons">keyboard_arrow_down</i>
+		</div> -->
+		<!-- Example single danger button -->
+<div class="btn-group">
+		<!-- <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		  Action
+		</button> -->
+
+		<div data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="color">
+			<i class="material-icons">person</i>
+			<i  class="material-icons">keyboard_arrow_down</i>
+		</div>
+		<div class="dropdown-menu" style="left: -115px;">
+		  <a class="dropdown-item disabled" >James Brown</a>
+		  <div class="dropdown-divider"></div>
+			
+		<a class="dropdown-item dsply" routerLink="/about"><i class="material-icons">power_settings_new</i>Sign Out</a>
+		</div>
+	  </div>
+		<!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
 	  </form>
 	</div>
   </nav>
