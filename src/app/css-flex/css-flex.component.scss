@@ -234,3 +234,66 @@
 	padding:20px;
 	font-size: 30px;
 }
+
+.flex-container18{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	background-color: dodgerblue;
+	text-align: center
+}
+.flex-container18>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	width: 100px;
+	padding:20px;
+	font-size: 30px;
+}
+
+
+.flex-container19{
+	display: flex;
+	background-color:#f1f1f1;
+
+}
+.flex-container19>div{
+	background-color: DodgerBlue;
+	color: white;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+  
+}
+
+.flex-container20{
+	display: flex;
+	background-color:#f1f1f1;
+
+}
+.flex-container20>div{
+	background-color: DodgerBlue;
+	color: white;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+  
+}
+
+.flex-container21{
+	display: flex;
+	background-color:#f1f1f1;
+}
+.flex-container21>div{
+	background-color: DodgerBlue;
+	color: white;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;  
+}
