@@ -1,48 +1,102 @@
 <nav style="background: #363636" class="navbar navbar-toggleable-md navbar-light bg-faded background">
-	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	  <span class="navbar-toggler-icon"></span>
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+	 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
 	</button>
-	<a style="color:white" class="navbar-brand" >Navbar</a>
-  
+	<a style="color:white" class="navbar-brand">Navbar</a>
+
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-	  <ul class="navbar-nav mr-auto">
-		<li class="nav-item active">
-		  <a style="color:white" class="nav-link color">Orders <span class="sr-only">(current)</span></a>
-		</li>
-		<li class="nav-item" style="display:flex;margin-left: 20px;">
-			<i style="color:white;align-self: center;" class="material-icons">format_align_left</i> <a style="color:white" class="nav-link" href="#">Pages</a>
-		</li>
-	  </ul>
-	  <form class="form-inline my-2 my-lg-0">
-		  <i class="material-icons color">settings</i>
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a style="color:white" class="nav-link color">Orders
+					<span class="sr-only">(current)</span>
+				</a>
+			</li>
+			<li class="nav-item" style="display:flex;margin-left: 20px;">
+				<i style="color:white;align-self: center;" class="material-icons">format_align_left</i>
+				<a style="color:white" class="nav-link" href="#">Pages</a>
+			</li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+			<i class="material-icons color">settings</i>
 
-		  <!-- <div  class="color">
-		  <i class="material-icons">person</i>
-		  <i  class="material-icons">keyboard_arrow_down</i>
-		</div> -->
-		<!-- Example single danger button -->
-<div class="btn-group">
-		<!-- <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		  Action
-		</button> -->
+			<!-- Example single danger button -->
+			<div class="btn-group">
 
-		<div data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="color">
-			<i class="material-icons">person</i>
-			<i  class="material-icons">keyboard_arrow_down</i>
-		</div>
-		<div class="dropdown-menu" style="left: -115px;">
-		  <a class="dropdown-item disabled" >James Brown</a>
-		  <div class="dropdown-divider"></div>
-			
-		<a class="dropdown-item dsply" routerLink="/about"><i class="material-icons">power_settings_new</i>Sign Out</a>
-		</div>
-	  </div>
-		<!-- <input class="form-control mr-sm-2" type="text" placeholder="Search">
-		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-	  </form>
+
+				<div data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="color">
+					<i class="material-icons">person</i>
+					<i class="material-icons">keyboard_arrow_down</i>
+				</div>
+				<div class="dropdown-menu" style="left: -115px;">
+					<a class="dropdown-item disabled">James Brown</a>
+					<div class="dropdown-divider"></div>
+
+					<a class="dropdown-item dsply" routerLink="/about">
+						<i class="material-icons">power_settings_new</i>Sign Out</a>
+				</div>
+			</div>
+
+		</form>
 	</div>
-  </nav>
+</nav>
 
-  <div>hello dashboard
-	
-  </div>
+<div>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Date</th>
+				<th>Name</th>
+				<th>Price USD</th>
+				<th>Payment</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">1</th>
+				<td>
+					<a href="#">2016-04-16 12:02:12</a>
+				</td>
+				<td>
+					<a href="#">Herman Melville</a>
+				</td>
+				<td>222</td>
+				<td>
+					<span class="label label-default">Paid online</span>
+				</td>
+				<td>
+					<a href="">
+						<i class="material-icons">edit</i>
+					</a>
+					<a href="">
+					<i class="material-icons">check</i>
+				</a>
+					<div class="btn-group">
+					<a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="material-icons">arrow_drop_down</i>
+					</a>
+					<div class="dropdown-menu" style="left: -100px;">
+
+						<a class="dropdown-item dsply" routerLink="/about">
+							<i style="margin-right: 10px;" class="material-icons setMargin">cancel</i>Cancel Order
+						</a>
+					</div>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">2</th>
+				<td>Jacob</td>
+				<td>Thornton</td>
+				<td>@fat</td>
+			</tr>
+			<tr>
+				<th scope="row">3</th>
+				<td>Larry</td>
+				<td>the Bird</td>
+				<td>@twitter</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
