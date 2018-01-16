@@ -1,0 +1,11 @@
+@media (max-width : 770px){
+	.setWidth{
+		flex-direction: column;
+		display: flex;
+		flex-flow: wrap;
+		margin:10px;
+	}
+	.setWidth>form{
+		width: 120% !important;
+	}
+}
