@@ -1,11 +1,26 @@
 @media (max-width : 770px){
-	.setWidth{
+	.setContainerWidth {
 		flex-direction: column;
 		display: flex;
 		flex-flow: wrap;
 		margin:10px;
 	}
-	.setWidth>form{
+	.setContainerWidth>form {
 		width: 120% !important;
 	}
+}
+.setContainerWidth{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+.setFormWidth{
+	display:flex;
+	flex-direction:column;
+	width:40%
+}
+.setContainerWidth{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;	
 }
