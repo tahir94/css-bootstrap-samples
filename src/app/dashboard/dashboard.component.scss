@@ -28,4 +28,35 @@
     vertical-align: baseline;
     border-radius: .25em;
  }
+ tr:hover{
+	 background: #efefef;
+ }
+a{
+	text-decoration: none;
+	color: black;
+}
+.table-a:hover{
+	border: 1px solid;
+	background: #E0E0E0
+
+ }
+ .table-a{
+	 margin: 7px;
+	 font-size: 20px;
+	 border: 1px  white;
+	 
+	}
+	.icon_styling{
+	color: black
+ }
+ .drpdwn-a{
+	width: 30px;
+    position: relative;
+    bottom: 4px;
+	height: 30px;
+	// border: 1px solid white;
+ }
+ .drpdwn-a:hover{
+	 border: 1px whoite;
+ }
  
